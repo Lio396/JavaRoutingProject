@@ -1,11 +1,9 @@
 public class JavaRouting implements RoutingEntry {
-    public static void main (String[] args) {
-        System.out.println("Hello world!");
-    }
+private ip;
 
     @Override
-    public String getId() {
-        return null;
+    public String getIpd() {
+        return this.ip;
     }
 
     @Override
