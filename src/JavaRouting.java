@@ -1,26 +1,28 @@
 public class JavaRouting implements RoutingEntry {
-    public static void main (String[] args) {
-        System.out.println("Hello world!");
-    }
+    
+private String ip;
+private String mask;
+private String gw;
+private String cidr;
 
     @Override
-    public String getId() {
-        return null;
+    public String getIp() {
+        return this.ip;
     }
 
     @Override
     public String getMask() {
-        return null;
+        return this.mask;
     }
 
     @Override
     public String getGW() {
-        return null;
+        return this.gw;
     }
 
     @Override
     public String getCidr() {
-        return null;
+        return this.cidr;
     }
 }
 

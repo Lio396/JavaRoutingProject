@@ -1,5 +1,5 @@
 public interface RoutingEntry {
-  String getId();
+  String getIp();
   String getMask();
   String getGW();
   String getCidr();
