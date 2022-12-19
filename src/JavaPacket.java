@@ -1,4 +1,4 @@
-public class JavaPacket implements Packet{
+public class JavaPacket implements Packet {
 
     @Override
     public String getSrc() {
